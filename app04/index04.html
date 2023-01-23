@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Formlar </title>
+
+</head>
+
+<body>
+    <h1> Lütfen formu doldurup gönder tuşuna basınız</h1>
+    <hr>
+    <h2> Kişisel Bilgiler </h2>
+    <h3> Hesap Bilgileri </h3>
+    <form action="">
+
+        <label for="username"> Kullanıcı Adı:</label>
+        <input type="text" id="username" name="username" placeholder="Lütfen Kullanıcı Adı Giriniz">
+        <br>
+        <br>
+
+        <label for="email"> Email:</label>
+        <input type="text" id="email" name="email" placeholder="Lütfen email girin">
+        <br>
+        <br>
+
+        <label for="şifre"> Şifre: </label>
+        <input type=" text" id="şifre" name="şifre" placeholder="Lütfen şifre girin">
+
+
+        <h3> Şahsi Bilgiler </h3>
+
+        <label for="name"> İsim:</label>
+        <input type="text" id="name" name="isim">
+        <br>
+        <br>
+
+        <label for="last_name"> Soyisim:</label>
+        <input type=" text" id="last_name" name="soyisim">
+        <br>
+        <br>
+
+        <label for="Şehir"> Şehir : </label>
+        <select name="şehirler" id=" şehirler">
+            <option value="seçin"> Seçin </option>
+            <option value="istanbul"> istanbul </option>
+            <option value="ankara"> ankara </option>
+            <option value="izmir"> izmir </option>
+            <option value="amasya"> amasya </option>
+            <option value="samsun"> samsun </option>
+        </select>
+        <br>
+        <br>
+
+        <!-- <h5> radio etiketi ile ilgili çalışma örnekleri</h5> -->
+        <label for="cinsiyet"> Cinsiyet : </label>
+        <input type="radio" id="erkek" value="erkek" name="cinsiyet">
+        <label for="erkek"> erkek </label>
+        <input type="radio" id="kadın" value="kadın" name="cinsiyet">
+        <label for="kadın"> kadın </label>
+        <br>
+        <br>
+
+        <!-- <h5> checkbox etiketleri dersi ile ilgili çalışmalar</h5> -->
+        <label for=" yazılım geçmişi"> Yazılım Geçmişi :</label>
+
+        <input type="checkbox" id="Yok" value="Yok" name=" Yazılım Geçmişi : ">
+        <label for="Yok"> Yok</label>
+
+        <input type="checkbox" id="Az" value="Az" name=" Yazılım Geçmişi : ">
+        <label for="Az"> Az </label>
+
+        <input type="checkbox" id="yazılım dili biliyor" value="yazılım dili biliyor" name=" Yazılım Geçmişi : ">
+        <label for="yazılım dili biliyor"> Yazılım Dili Biliyor </label>
+
+        <input type="checkbox" id="wordpres" value="wordpres" name=" Yazılım Geçmişi : ">
+        <label for="wordpres"> WordPres </label>
+        <br>
+        <br>
+
+        <label for="number"> Telefon numarası : </label>
+        <input type="number" id="number" value="number">
+        <br>
+        <br>
+
+        <!-- <textarea name=" msg" id="msg" cols="50" rows="10">
+            Hayata Dair Düşünceleriniz.(buradaki elemente dair
+             bir kutucuk açılır ve içersinde notlar,ekstra bilgiler vs 
+             öğrenmek için yapılmaktadır.)  </textarea> -->
+
+        <input type="submit" value="Kaydet">
+        <br>
+
+
+
+    </form>
+
+</body>
+
+</html>
